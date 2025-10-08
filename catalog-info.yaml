@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: spring_2.x
+  description: A Spring-based application developed by Anchusi, focusing on modern Java development practices.
+  annotations:
+    github.com/project-slug: anchusi/spring_2.x
+    jira/project-key: SCRUM
+    jira/label: backstage-component:spring_2.x
+spec:
+  type: application
+  owner: ICS
+  lifecycle: experimental
